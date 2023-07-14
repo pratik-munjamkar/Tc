@@ -1,0 +1,85 @@
+#third .third_box1 {
+    width: 270px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  #third .third_box1 .head1 {
+    font-size: 18px;
+    font-weight: 350;
+    padding: 10px 0px;
+  }
+  #third .third_box1 .head2 {
+    font-size: 13px;
+    font-weight: 350;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  #third .third_box1 ul {
+    padding-left: 30px;
+    list-style-image: url("/src/Assets/circleIcon.png");
+  }
+  #third .third_box1 ul li {
+    padding-bottom: 10px;
+  }
+  #third .third_box1 .course {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  #third .third_box1 .count {
+    color: gray;
+    font-size: 10px;
+  }
+  
+  #third .third_box2 {
+    width: 270px;
+    height: 270px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  #third .third_box2 p {
+    font-size: 18px;
+    font-weight: 350;
+    padding: 10px 0px;
+  }
+  #third .third_box2 img {
+    width: 270px;
+  }
+  
+  #third .third_box3 {
+    width: auto;
+    height: 270px;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  #third .third_box3 p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 350;
+    padding: 10px 0px;
+  }
+  #third .third_box3 img {
+    width: 580px;
+    height: 210px;
+    padding: 10px 0px;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    #third .third_box3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    #third .third_box3 img {
+      font-size: 18px;
+      width: 280px;
+      height: auto;
+      padding: 10px 0px;
+    }
+  }

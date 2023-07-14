@@ -1,0 +1,53 @@
+.container {
+    background-color: rgb(211, 237, 246);
+  }
+  nav {
+    background-color: #0c58e6;
+    padding: 25px;
+    color: white;
+    border-radius: 5px;
+  }
+  nav h1 {
+    font-size: 30px;
+  }
+  nav p {
+    font-size: 13px;
+    font-weight: 350;
+  }
+  #first {
+    padding: 10px;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #second {
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #third {
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #sidebar{
+    padding-right: 80%;
+    
+    display: flex;
+    
+    
+    justify-content: center;
+    
+  }
